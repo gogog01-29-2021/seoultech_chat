@@ -22,3 +22,8 @@ The test suite spins up the Express app on a random port and checks the root, `/
 ## Continuous Integration
 
 A GitHub Actions workflow runs `npm test` on every push and pull request to `main`.
+
+## Repository status
+
+This repository is a fork and currently has no upstream remote configured. Check
+for upstream updates manually before relying on CI results.
