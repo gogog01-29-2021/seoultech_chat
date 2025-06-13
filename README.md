@@ -31,6 +31,7 @@ A GitHub Actions workflow runs `npm test` on every push and pull request to `mai
 
 The workflow checks out the code, installs dependencies using `npm ci`, and executes `npm test` with Node.js 18.
 
+=======
 ## Repository status
 
 This repository is a fork and currently has no upstream remote configured. Check
