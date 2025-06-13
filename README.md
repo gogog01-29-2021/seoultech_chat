@@ -23,6 +23,15 @@ The test suite spins up the Express app on a random port and checks the root, `/
 
 A GitHub Actions workflow runs `npm test` on every push and pull request to `main`.
 
+### Enabling the workflow
+
+1. Commit the workflow file at `.github/workflows/ci.yml` (already included in this repo).
+2. Push your changes to GitHub.
+3. Visit the **Actions** tab in your repository to see the workflow run.
+
+The workflow checks out the code, installs dependencies using `npm ci`, and executes `npm test` with Node.js 18.
+
+=======
 ## Repository status
 
 This repository is a fork and currently has no upstream remote configured. Check
