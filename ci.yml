@@ -42,6 +42,8 @@ jobs:
         fi
       env:
         NODE_ENV: test
+        JWT_SECRET: test-secret
+        JWT_REFRESH_SECRET: test-refresh-secret
     
     - name: Run backend linting
       run: |
