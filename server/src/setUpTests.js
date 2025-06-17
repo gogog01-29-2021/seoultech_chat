@@ -1,6 +1,6 @@
 // server/src/setupTests.js
 // Jest setup file for testing environment
-
+//server/src/setupTests.js
 // Set test environment variables
 process.env.NODE_ENV = 'test';
 process.env.JWT_SECRET = 'test-secret';
